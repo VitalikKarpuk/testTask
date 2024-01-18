@@ -1,0 +1,7 @@
+.app {
+  background-color: var(--col--gray2);
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

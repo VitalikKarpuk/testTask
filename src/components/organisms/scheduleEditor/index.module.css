@@ -1,0 +1,76 @@
+.modal {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(235, 234, 234);
+  position: absolute;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  padding: 10px;
+  background-color: var(--col--light);
+  border-radius: 20px;
+
+}
+
+.header {
+  color: var(--col--gray1);
+  font-size: 22px;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header svg {
+  width: 20px;
+  height: 20px;
+}
+
+.wrapper hr {
+  margin: 20px -10px;
+}
+
+.dropdownWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.line {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.line > div {
+  width: 100%;
+}
+
+.audience {
+  display: flex;
+  flex-shrink: 2;
+}
+
+.audience > div {
+  width: 100%;
+}
+
+.daysOfWeek {
+  display: flex;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.daysOfWeek button {
+  height: 48px;
+  flex-grow: 1;
+}
+
+.buttonBlock {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: end;
+}

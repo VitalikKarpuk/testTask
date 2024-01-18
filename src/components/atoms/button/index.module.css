@@ -1,0 +1,20 @@
+.button {
+  font-size: 18px;
+  color: var(--col--dark);
+  border: none;
+  cursor: pointer;
+  transition: all 0.1s ease;
+  text-align: center;
+  border: 1px solid var(--col--gray1);
+  background-color: var(--col--light);
+}
+
+.blue {
+  background: var(--col--secondary2);
+  color: var(--col--light);
+}
+
+.button:active {
+  background: var(--col--secondary2);
+  color: var(--col--light);
+}

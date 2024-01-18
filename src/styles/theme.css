@@ -1,0 +1,30 @@
+body {
+  --col--gray1: #878a8f;
+  --col--gray2: #CDCDCD;
+  --col--dark: #0f141e;
+  --col--light: #ffffff;
+  --col--secondary1: #5aaff5;
+  --col--secondary2: rgb(38, 107, 236);
+  
+  --second-text-color: #737373;
+
+
+ 
+  --col--gray6: #746D6B;
+  
+  --col--gray5: #9C9796;
+  --col--gray3: #CDCBCA;
+  --col--gray4: #E1E0DF;
+ 
+  --col--primary1: #FFC600;
+  --col--primary1variant: #EDB900;
+  --col--primary2: #382E2C;
+  --col--primary2variant: #000000;
+  --col--secondary3: #946037;
+
+  --col--secondary4: #A12027;
+  --col--secondary5: #328500;
+  --col--secondary6: #C31B24;
+  --col--utilitySuccess: #328500;
+  --col--utilityError: #C31B24;
+}

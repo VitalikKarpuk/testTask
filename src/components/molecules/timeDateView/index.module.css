@@ -1,0 +1,33 @@
+.wrapper {
+  width: 100%;
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  color: var(--col--dark);
+  background: var(--col--light);
+  border: 1px solid var(--col--gray1);
+  border-radius: 12px;
+}
+
+.wrapper > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.value {
+  flex-grow: 1;
+  color: var(--col--gray1);
+}
+
+.middleText {
+  width: 52px;
+  height: 100%;
+  background-color: var(--col--gray1);
+  color: var(--col--light);
+}
+
+.wrapper input {
+  border: none;
+}

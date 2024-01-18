@@ -1,0 +1,32 @@
+.counter {
+  width: 100%;
+  height: 48px;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--col--gray1);
+  display: flex;
+  justify-content: space-between;
+}
+
+.counter button {
+  width: 48px;
+  height: 48px;
+  border: none;
+}
+
+.value {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.hours {
+  background-color: var(--col--gray2);
+  border-left: 1px solid var(--col--gray1);
+  color: var(--col--gray1);
+  width: 50px;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+}
